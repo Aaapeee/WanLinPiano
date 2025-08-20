@@ -14,7 +14,7 @@ footer { background: #000; color: #fff; text-align: center; padding: 1rem; margi
 }
 
 #hero img {
-    max-width: 320px;     /* limit size of portrait */
+    max-width: 1320px;     /* limit size of portrait */
     width: 100%;          /* responsive scaling */
     height: auto;         /* keep proportions */
     border-radius: 12px;  /* optional rounded edges */
