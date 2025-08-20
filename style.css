@@ -9,16 +9,16 @@ footer { background: #000; color: #fff; text-align: center; padding: 1rem; margi
 /* Hero Section */
 #hero {
     text-align: center;
-    padding: 50px 20px;
-    background-color: #111; /* dark background */
+    padding: 80px 20px;   /* space around the image */
+    background-color: #111;
 }
 
 #hero img {
-    max-width: 350px;   /* limit portrait width */
-    width: 100%;        /* responsive on small screens */
-    height: auto;       /* keep aspect ratio */
-    border-radius: 12px; /* optional: round corners */
-    box-shadow: 0px 4px 20px rgba(0,0,0,0.5); /* elegant shadow */
+    max-width: 320px;     /* limit size of portrait */
+    width: 100%;          /* responsive scaling */
+    height: auto;         /* keep proportions */
+    border-radius: 12px;  /* optional rounded edges */
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
 }
 
 .hero-text {
@@ -27,8 +27,13 @@ footer { background: #000; color: #fff; text-align: center; padding: 1rem; margi
 }
 
 .hero-text h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
 }
 
 .hero-text p {
